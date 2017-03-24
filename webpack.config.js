@@ -33,6 +33,12 @@ module.exports = {
 		}]
 	},
 
+	resolve: {
+		alias: {
+			'vue$': 'vue/dist/vue.common.js'
+		}
+	},
+
 	// webpack-dev-server是一个轻量的node.js express服务器
 	// webpack-dev-server的作用是用来伺服资源文件，不能替代后端服务器
 	devServer: {

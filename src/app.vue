@@ -27,7 +27,26 @@ body {
 }
 
 #vue-app {
+	text-align: center;
 	height: 100vh;
 	background-color: #EEE;
+}
+#vue-app h1 {
+	line-height: 50px;
+}
+#vue-app button {
+	line-height: 20px;
+}
+
+.son-component {
+	line-height: 26px;
+	vertical-align: top;
+}
+.son-component span {
+	display: inline-block;
+	vertical-align: top;
+}
+.son-component button {
+	vertical-align: top;
 }
 </style>

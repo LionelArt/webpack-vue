@@ -6,7 +6,11 @@
 <title>webpack-vue</title>
 </head>
 <body>
-<section id="vue-app"></section>
+<section id="vue-app">
+	总数：{{total}}
+	<my-component v-bind:my-message="message" v-bind:my-counter="1"></my-component>
+	<my-component v-bind:my-message="message" v-bind:my-counter="-1" v-on:click.native="clickEvent"></my-component>
+</section>
 <script type="text/javascript" src="build.js"></script>
 </body>
 </html>

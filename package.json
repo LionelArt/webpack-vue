@@ -14,9 +14,10 @@
     "css-loader": "^0.27.3",
     "file-loader": "^0.10.1",
     "vue": "^2.2.4",
-    "vue-loader": "^11.1.4",
+    "vue-loader": "^11.2.0",
     "vue-template-compiler": "^2.2.4",
-    "webpack": "^2.2.1",
+    "vuex": "^2.2.1",
+    "webpack": "^2.3.0",
     "webpack-dev-server": "^2.4.2"
   }
 }
